@@ -19,9 +19,17 @@ function ToDoForm ({ onFinish }) {
                 >
                     <Input/>
                 </Form.Item>
-
+                <Form.Item>
+                    <Button
+                        type="primary"
+                        shape="round"
+                        htmlType='"submit'
+                        >Submit</Button>
+                </Form.Item>
             </Form>
             </>
 
     )
 }
+
+export default ToDoForm
